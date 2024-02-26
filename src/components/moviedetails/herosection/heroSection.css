@@ -1,0 +1,98 @@
+.backdrop_image{
+    border-bottom: 1px solid var(--primaryColor);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    background-color:white;
+    background-clip: border-box;
+    background-position-x: 100px;
+
+}
+
+.backdrop-image-div{
+width: 100%;
+}
+.inner-hero-section{
+    padding: 30px 40px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+.movie-details{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  justify-content: center;
+}
+.certification{
+    border: 1px solid gray;
+    width: 18px;
+    height: 15px;
+    padding: 0.800px 4px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+.right-section{
+    padding-left:40px
+}
+.metrics{
+  
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 24px;
+   
+   
+   
+}
+.movie-title-herosection{
+    font-size: 35.5px;
+    margin-top: 10px;
+    display: flex;
+}
+.metric-data{
+    margin-right: 7px;
+}
+.seperator{
+    font-weight: 900;
+    font-size: larger;
+    margin-right: 7px;
+    padding-bottom: 10px;
+
+}
+.tagline{
+    font-size:16px;
+    color:rgba(var( --darkerGrey));
+   font-weight:400;
+}
+/* .outer-movie-details-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.credits{
+    display: flex;
+    width: 980px;
+    height: 155px;
+    flex-wrap: wrap;
+}
+
+.overview{
+ font-weight:600;
+ margin-top: 10px;
+ margin-bottom: 8px;   
+}
+
+.release-year{
+    font-weight: 400;
+    opacity: 0.8;
+    font-size: 35px;
+}

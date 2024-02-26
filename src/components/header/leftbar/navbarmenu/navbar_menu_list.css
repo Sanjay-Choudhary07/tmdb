@@ -1,0 +1,53 @@
+.movies{
+    color:white;
+    margin-right:14px;
+    text-align: left;
+    font-weight: 500;
+    font-size:16px;
+    padding:8px;
+    position: relative;
+    cursor: pointer;
+}
+.header-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    line-height: 24px;
+    padding-left: 0;
+    margin-left: 16px;
+
+}
+.list_items{
+background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    display: none;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    padding: 10px 20px;
+    position: absolute;
+    top: 30px;
+    width: 120px;
+    z-index: 20;
+    top: calc(100% + 5px);
+}
+.dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.movies:hover .list_items {
+    display: block; /* Show the list_items when .movies is hovered */
+  }
+.dropdown_action{
+    margin-bottom: 5px;
+}  
+/* #movie{
+    height: 24px;
+    min-width: 50px;
+    position: absolute;
+} */

@@ -1,0 +1,22 @@
+.credit-name{
+    font-weight: 700;
+    margin-bottom: 0;
+    }
+    .credit-dept{
+        margin-top: 0;
+       font-size:14px;
+    
+    }
+    
+    .credit-div{
+        width: 323px;
+        display: flex;
+        flex-direction: start;
+    }
+    .credit-div-inner{
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+     
+    }

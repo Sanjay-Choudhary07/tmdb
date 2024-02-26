@@ -1,0 +1,10 @@
+.poster-card{
+    width:300px;
+    height: 450px;
+    border-radius: 8px;
+
+}
+.poster-card:hover{
+    filter: blur(2px);
+
+}

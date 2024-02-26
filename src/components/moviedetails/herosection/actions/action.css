@@ -1,0 +1,49 @@
+
+.action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.choice-icons-star{
+    filter: invert(1);
+    width: 16px;
+    height: 16px;
+}
+.play-trailer{
+    font-weight: 600;
+    font-size: 16px;
+}
+.play-trailer-icon{
+   width: 22px;
+   height: 22px;
+   filter: invert(1);
+   margin-right: 9px;
+}
+.play-trailer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-score-div{
+    color: white;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+
+}
+.user-score-title{
+    font-weight: 700;
+    font-size: 16px;
+    margin-left: 6px;
+    margin-right: 20px;
+  text-align: center;
+}
+.play-trailer{
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+.play-trailer:hover{
+    cursor: pointer;
+}

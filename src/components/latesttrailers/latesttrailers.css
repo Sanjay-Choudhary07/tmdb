@@ -1,0 +1,116 @@
+.latestTrailers-section {
+    width: 1300px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 12px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+
+.trailer-heading {
+    padding: 4px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.latestTrailers {
+    width: 1300px;
+    height: 316px;
+    padding-top: 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.latestTrailers-section::before {
+    background: linear-gradient(90deg, hsla(240, 7%, 86%, 0), hsla(180, 5%, 87%, .5) 60%, #fefefe);
+    content: "";
+    height: 350px;
+    position: absolute;
+    right: 110px;
+    width: 60px;
+    z-index: 1;
+}
+
+.latest-trailer-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.latestTrailers-column {
+    box-sizing: border-box;
+    width: 1300px;
+}
+
+.latestTrailers-title {
+    width: 1220px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    font-weight: 600;
+}
+
+.trailor-selector {
+    display: flex;
+    border-radius: 30px;
+    margin-left: 20px;
+    border: 1px solid rgb(30, 213, 169);
+    justify-content: space-between;
+    align-items: center;
+    height: 26px;
+    cursor: pointer;
+}
+
+.latestTrailers-scroller-inner-div {
+    width: 1300px;
+    display: flex;
+}
+
+.latestTrailers-scroller {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.anchor {
+    height: 12px;
+}
+
+.trailer-clicked {
+    border-radius: 30px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #fff 0%, #c0fecf 5%, #1ed5a8 100%);
+    background-color: rgba(var(--tmdbDarkBlue));
+    color: black
+}
+
+.latest-scroller-div {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.latest-scroller-div::-webkit-scrollbar {
+    height: 8px;
+    background-color: none;
+}
+
+.latest-scroller-div::-webkit-scrollbar-thumb {
+    background-color: rgba(var(--scrollerGrey), 1);
+    border-radius: 20px;
+}
+
+.position-trailer-box {
+    position: fixed;
+    top: 5%;
+    left: 15%;
+    z-index: 10;
+    border: none;
+}

@@ -1,0 +1,78 @@
+.whats-popular-section {
+    width: 1300px;
+    display: flex;
+    background-position-x: 50%;
+    background-position-y: 200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+}
+
+.whats-popular {
+    width: 1300px;
+    padding-top: 30px;
+    align-content: flex-start;
+    align-items: flex-start;
+    color: black;
+    font-size: 16px;
+}
+
+.whats-popular-column {
+    box-sizing: border-box;
+    width: 1300px;
+    display: flex;
+    padding-left: 40px;
+}
+
+.whats-popular-title {
+    width: 1220px;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    font-weight: 600;
+}
+
+.whats-popular-h2 {
+    font-weight: 600;
+}
+
+.whats-popular-selector {
+    display: flex;
+    border-radius: 30px;
+    margin-left: 20px;
+    border: 1px solid black;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.whats-popular-clicked {
+    z-index: 1;
+    border-radius: 30px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(var(--tmdbDarkBlue));
+    color: linear-gradient(to right, #c0fecf 0%, #1ed5a9 100%);
+    color: #1ed5a9;
+}
+
+.whats-popular-not-clicked {
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whats-popular-heading {
+    padding: 4px 20px;
+    font-size: 16px;
+    font-weight: 600;
+}

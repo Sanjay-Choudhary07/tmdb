@@ -1,0 +1,30 @@
+.discover-section {
+    background-repeat: no-repeat;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+    background: linear-gradient(to right, rgba(var(--tmdbDarkBlue), 0.8) 0%, rgba(var(--tmdbDarkBlue), 0) 100%), url("https://www.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter(duotone,00192f,00baff)/u7OpeS4eckBSR1wFxFTuyy3FjHE.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.discoverInnerDiv {
+    width: 100%;
+    height: 244px;
+    color: white;
+    padding: 50px 0px 20px 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.discover-upper-div {
+    display: flex;
+    justify-content: flex-start;
+    width: 1220px;
+    height: 88px;
+}
+
+.discover-lower-div {
+    display: flex;
+    justify-content: flex-end;
+}
