@@ -1,5 +1,4 @@
 import {useState, useEffect } from "react";
-// import { useState } from "react";
 import { todayContent } from "../module/todayContentModule";
 import { requestOptions } from "../module/todayContentModule";
 
